@@ -1,0 +1,51 @@
+####################################
+# QuantekkBlood Configuration      #
+# Made by Connor (ThatBritishGuy_  #
+####################################
+
+# True for 'Yes, enable it!' and false for 'No, don't enable!'. 
+
+# Blood burst - A burst of blood. 
+# Blood spew - Spewing blood for a certain amount of time. 
+
+#####################
+# Plugin Management #
+#####################
+
+# Decides whether or not should the plugin be enabled.
+Enabled=true
+
+##################
+# Blood Bursting #
+##################
+
+# This enables if the entities should burst out blood.
+EnableBloodBurst=true
+
+#################
+# Blood Spewing #
+#################
+
+# This enables if the entities should spew out blood.
+EnableBloodSpew=true
+
+# This enables the damage effect when an entity is spewing blood.
+EnableBloodSpewDamage=false
+
+# This sets the amount of time(in seconds) the entity will spew
+# out blood. Default time is 7.
+BloodSpewTime=7
+
+###################
+# Bleeding Damage #
+###################
+
+# 1 number is equal to half a heart of health(0.5 Hearts).
+
+# Amount of damage required to be taken in order for a blood
+# bursting effect. Default damage is 4.
+BloodBurstDamage=4
+
+# Amount of damage required to be taken in order for a blood
+# spewing effect. Default damage is 9.
+BloodSpewDamage=9
